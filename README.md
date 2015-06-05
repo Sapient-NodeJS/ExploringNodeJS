@@ -3,7 +3,7 @@
 ##Introduction
 The intent of this application is to explore various features provided by Node JS.
 
-##Node JS Features 
+##List of Node JS Features used in this application
 - Node Concepts
 - Working with Express JS
 - Working with NoSQL DBs
