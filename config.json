@@ -1,0 +1,14 @@
+{
+    "localhost": {
+        "src": { 
+            "path": "",
+            "main": "app.js"
+        },
+        "url": {
+            "port": 3000,
+            "hostname": "localhost",
+            "protocol": "http"
+        },
+        "open": "/"
+    }
+}

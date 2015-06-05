@@ -1,0 +1,25 @@
+{{> home}}
+<pre>
+//Lets require/import the HTTP module. 
+var http = require('http');
+
+//Lets define a port you want to listen to
+const PORT=8080; 
+
+//You need a function which handles requests and send response
+function handleRequest(request, response){
+    response.end('Hello World');
+    
+    //Use response.send(FILE_NAME) to send a file to response
+}
+
+
+//Create a server
+var server = http.createServer(handleRequest);
+
+//Lets start your server
+server.listen(PORT, function(){
+    //Callback triggered when server is successfully listening. Hurray!
+    console.log("Server listening on: http://localhost:%s", PORT);
+});
+</pre>
