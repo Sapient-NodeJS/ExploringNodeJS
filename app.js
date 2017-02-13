@@ -28,6 +28,7 @@ var hbs = expressHandlebar.create({
 				'config' : data
 			};
 			console.log('value:' + JSON.stringify(data));
+			console.log("adding one more line here");
 			var html = template(data);
 			console.log(html);
 			return html;
