@@ -28,7 +28,7 @@ var hbs = expressHandlebar.create({
 				'config' : data
 			};
 			console.log('value:' + JSON.stringify(data));
-			console.log("adding one more line here");
+			console.log("adding one more line here 121324234324");
 			var html = template(data);
 			console.log(html);
 			return html;
